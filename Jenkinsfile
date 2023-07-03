@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the source code from the repository
-                git 'https://github.com/your-username/calculator-app.git'
+                git 'https://github.com/nostradamuskenneh/java-project.git'
             }
         }
 
